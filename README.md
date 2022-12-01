@@ -20,3 +20,6 @@
 * 1일 뒤 LSTM 예측결과 (filter 14, filter 30)
 ![image](https://user-images.githubusercontent.com/71176581/205051479-1e201daf-d489-4045-a0bc-37b4b7d12256.png)
 ![image](https://user-images.githubusercontent.com/71176581/205051494-3ac72efd-6f88-4f61-9d2b-7c1b045f2ff8.png)
+
+* 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
+![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)
