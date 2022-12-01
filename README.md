@@ -23,3 +23,12 @@
 
 * 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
 ![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)
+
+* RandomForest
+![image](https://user-images.githubusercontent.com/71176581/205057623-5c03089a-4bb1-40d8-b404-35537f58d241.png)
+* AdaBoost
+![image](https://user-images.githubusercontent.com/71176581/205057752-a73dc33e-18f9-4e5e-86c0-99eab02cdd75.png)
+* XGBoost
+![image](https://user-images.githubusercontent.com/71176581/205057767-f54340d2-f7b0-471b-bfe8-6675c57ade98.png)
+* LightGBM
+![image](https://user-images.githubusercontent.com/71176581/205057808-54e31d16-252d-462f-9969-ac6ade00658c.png)
