@@ -10,10 +10,11 @@
 ![image](https://user-images.githubusercontent.com/71176581/205050843-bd3ee73d-fb8f-469d-8dc9-6a95e6ea86b2.png)  
 본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가를 이용하여 다음날(2022년 11월 1일)과 3일 뒤(2022년 11월 4일) 코스피 시가를 예측하는 것을 목표로 한다. 이를 위해 FinanaceDataReader 라이브러리에서 제공하는 코스피 시가를 이용한다.
 
-* 2019-11-1 ~ 2022-10-31 코스피 시가 지수
+* 2019-11-01 ~ 2022-10-31 코스피 시가 지수
 ![image](https://user-images.githubusercontent.com/71176581/205049894-89f33705-9f19-4a87-a523-b80842ce41bb.png)
-위 그래프는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가 데이터이다. 이 데이터의 후반부 150개를 test 데이터, 나머지는 train 데이터로 지정하여 학습한다.
-
+위 그래프는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가 데이터이다. 이 데이터의 후반부 150개를 test 데이터, 나머지는 train 데이터로 지정하여 학습한다.  
+![image](https://user-images.githubusercontent.com/71176581/212311240-5ad8a581-5f2a-4f05-ad1c-aeeabf468d1d.png)  
+데이터를 7일 단위로 나눠서 학습한 뒤, 다음날(2022년 11월 1일), 3일 뒤(2022년 11월 4일) 코스피 시가 지수를 예측한다.  
 * 1일 뒤 RNN 예측결과 (filter 14, filter 30)
 ![image](https://user-images.githubusercontent.com/71176581/205050073-d1299d96-09b4-4075-a03c-8c57d5144f37.png)  
 ![image](https://user-images.githubusercontent.com/71176581/205051347-11b1c23d-9dbf-47b8-a2c9-498d8aafba8a.png)
