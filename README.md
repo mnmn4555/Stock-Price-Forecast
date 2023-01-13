@@ -12,8 +12,7 @@
 
 * 2019-11-1 ~ 2022-10-31 코스피 시가 지수
 ![image](https://user-images.githubusercontent.com/71176581/205049894-89f33705-9f19-4a87-a523-b80842ce41bb.png)
-
-* 1일 뒤 예측
+위 그래프는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가 데이터이다. 이 데이터의 후반부 150개를 test 데이터, 나머지는 train 데이터로 지정하여 학습한다.
 
 * 1일 뒤 RNN 예측결과 (filter 14, filter 30)
 ![image](https://user-images.githubusercontent.com/71176581/205050073-d1299d96-09b4-4075-a03c-8c57d5144f37.png)  
