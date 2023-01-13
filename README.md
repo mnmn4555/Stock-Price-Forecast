@@ -1,12 +1,14 @@
 # Stock-Price-Forecast
 ## 코스피 주식 예측
-> Library : LSTM, RNN, RandomForest, AdaBoost, LightGBM, scikit-learn  
+> Library : LSTM, RNN, RandomForest, AdaBoost, LightGBM, scikit-learn, FinanceDataReader
 > Environment : Google Colab
 ## Overview
 * 주제 선정
-한국 주식 가격, 미국주식 가격, 지수, 환율, 암호화폐 가격 등 금융 데이터 수집 라이브러리인 FinanceDataReader을 이용하여 과거 코스피 지수를 이용하여 다음날 코스피 지수 시가를 예측하고자 한다.
-* 사용한 데이터
-2019-11-1 ~ 2022-10-31 3년간의 코스피 시가 지수를 이용한다.
+경제 상황, 금리, 주식 동향 등 주식 가격 결정에 영향을 미치는 요인은 다양하다. 하지만 이 모든 요인을 파악하고 주식 가격을 정확하게 예측하는 것에는 한계가 있다. 이를 위해 과거의 주식값의 흐름을 읽고 미래 주식값을 예측하는 방법으로 주식 가격을 예측하고자 한다.
+
+* 분석 목표
+본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가를 이용하여 다음날(2022년 11월 1일)과 3일 뒤(2022년 11월 4일) 코스피 시가를 예측하는 것을 목표로 한다. 이를 위해 FinanaceDataReader 라이브러리에서 제공하는 코스피 시가를 이용한다.
+
 * 2019-11-1 ~ 2022-10-31 코스피 시가 지수
 ![image](https://user-images.githubusercontent.com/71176581/205049894-89f33705-9f19-4a87-a523-b80842ce41bb.png)
 
