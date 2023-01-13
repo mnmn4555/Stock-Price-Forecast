@@ -24,14 +24,15 @@
 * 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
 ![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)
 
-* 3일 뒤 RNN 예측결과
-![image](https://user-images.githubusercontent.com/71176581/212314701-e93c53a0-97b2-4e27-99b9-5a8f6024f562.png)  
+* 3일 뒤 RNN 예측결과  
+![image](https://user-images.githubusercontent.com/71176581/212315036-96ebd08e-32a4-45b6-89d6-9a36f529403b.png)  
 
-* 3일 뒤 LSTM 예측결과
-![image](https://user-images.githubusercontent.com/71176581/212314820-9ba8a99b-09d1-41e6-b33c-eb324dcbe817.png)  
+* 3일 뒤 LSTM 예측결과  
+![image](https://user-images.githubusercontent.com/71176581/212315105-5eca52ba-76e2-4ac6-b300-c413cbd8f764.png)  
 
-* 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
-* 
+* 3일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
+![image](https://user-images.githubusercontent.com/71176581/212315779-68b57b61-67b2-4ac6-a0f4-83cd088988f8.png)  
+
 * RandomForest
 ![image](https://user-images.githubusercontent.com/71176581/205057623-5c03089a-4bb1-40d8-b404-35537f58d241.png)
 * AdaBoost
