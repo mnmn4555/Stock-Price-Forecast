@@ -3,17 +3,17 @@
 > Library : LSTM, RNN, RandomForest, AdaBoost, LightGBM, scikit-learn, FinanceDataReader
 > Environment : Google Colab
 ## Overview
-* 주제 선정
+* 주제 선정  
 경제 상황, 금리, 주식 동향 등 주식 가격 결정에 영향을 미치는 요인은 다양하다. 하지만 이 모든 요인을 파악하고 주식 가격을 정확하게 예측하는 것에는 한계가 있다. 이를 위해 과거의 주식값의 흐름을 읽고 미래 주식값을 예측하는 방법으로 주식 가격을 예측하고자 한다.
-
-* 분석 목표
+  
+* 분석 목표  
+![image](https://user-images.githubusercontent.com/71176581/205050843-bd3ee73d-fb8f-469d-8dc9-6a95e6ea86b2.png)  
 본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가를 이용하여 다음날(2022년 11월 1일)과 3일 뒤(2022년 11월 4일) 코스피 시가를 예측하는 것을 목표로 한다. 이를 위해 FinanaceDataReader 라이브러리에서 제공하는 코스피 시가를 이용한다.
 
 * 2019-11-1 ~ 2022-10-31 코스피 시가 지수
 ![image](https://user-images.githubusercontent.com/71176581/205049894-89f33705-9f19-4a87-a523-b80842ce41bb.png)
 
 * 1일 뒤 예측
-![image](https://user-images.githubusercontent.com/71176581/205050843-bd3ee73d-fb8f-469d-8dc9-6a95e6ea86b2.png)
 
 * 1일 뒤 RNN 예측결과 (filter 14, filter 30)
 ![image](https://user-images.githubusercontent.com/71176581/205050073-d1299d96-09b4-4075-a03c-8c57d5144f37.png)  
