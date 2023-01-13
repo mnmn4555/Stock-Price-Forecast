@@ -17,11 +17,9 @@
 데이터를 7일 단위로 나눠서 학습한 뒤, 다음날(2022년 11월 1일), 3일 뒤(2022년 11월 4일) 코스피 시가 지수를 예측한다.  
 * 1일 뒤 RNN 예측결과 (filter 14, filter 30)
 ![image](https://user-images.githubusercontent.com/71176581/205050073-d1299d96-09b4-4075-a03c-8c57d5144f37.png)  
-![image](https://user-images.githubusercontent.com/71176581/205051347-11b1c23d-9dbf-47b8-a2c9-498d8aafba8a.png)
 
-* 1일 뒤 LSTM 예측결과 (filter 14, filter 30)
-![image](https://user-images.githubusercontent.com/71176581/205051479-1e201daf-d489-4045-a0bc-37b4b7d12256.png)
-![image](https://user-images.githubusercontent.com/71176581/205051494-3ac72efd-6f88-4f61-9d2b-7c1b045f2ff8.png)
+* 1일 뒤 LSTM 예측결과 
+![image](https://user-images.githubusercontent.com/71176581/205051479-1e201daf-d489-4045-a0bc-37b4b7d12256.png)  
 
 * 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
 ![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)
