@@ -8,7 +8,7 @@
   
 * 분석 목표  
 ![image](https://user-images.githubusercontent.com/71176581/205050843-bd3ee73d-fb8f-469d-8dc9-6a95e6ea86b2.png)  
-본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가를 이용하여 다음날(2022년 11월 1일)과 3일 뒤(2022년 11월 4일) 코스피 시가를 예측하는 것을 목표로 한다. 이를 위해 FinanaceDataReader 라이브러리에서 제공하는 코스피 시가를 이용한다.
+본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가를 이용하여 다음날(2022년 11월 1일) 코스피 시가를 예측하는 것을 목표로 한다. 이를 위해 FinanaceDataReader 라이브러리에서 제공하는 코스피 시가를 이용한다.
 
 * 2019-11-01 ~ 2022-10-31 코스피 시가 지수
 ![image](https://user-images.githubusercontent.com/71176581/205049894-89f33705-9f19-4a87-a523-b80842ce41bb.png)
@@ -24,19 +24,11 @@
 * 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
 ![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)  
 
-* 3일 뒤 RNN 예측결과  
-![image](https://user-images.githubusercontent.com/71176581/212315036-96ebd08e-32a4-45b6-89d6-9a36f529403b.png)  
-
-* 3일 뒤 LSTM 예측결과  
-![image](https://user-images.githubusercontent.com/71176581/212315105-5eca52ba-76e2-4ac6-b300-c413cbd8f764.png)  
-
-* 3일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
-![image](https://user-images.githubusercontent.com/71176581/212315779-68b57b61-67b2-4ac6-a0f4-83cd088988f8.png)  
-
 * 여러 알고리즘을 이용한 코스피 시가 예측  
 > Grid Search  
 > 알고리즘 별로 성능을 최적화하는 parameter을 선택하는 방법으로 같은 데이터라도 각 알고리즘 별 parameter 값이 다르다. 2019년 11월 01일 ~ 2022년 10월 31일 간 코스피 시가 데이터로 RandomForest, AdaBoost, XGBoost, LightGBM의 성능을 최적화하는 parameter를 알아본다.  
 
+* 알고리즘별 최적 하이퍼파라미터 값
 > RandomForest
 ![image](https://user-images.githubusercontent.com/71176581/218246507-e44002b7-769f-42f3-88b1-e17b1f0ad089.png)  
 > AdaBoost  
