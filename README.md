@@ -15,14 +15,14 @@
 위 그래프는 2019년 11월 1일부터 2022년 10월 31일까지 코스피 시가 데이터이다. 이 데이터의 후반부 150개를 test 데이터, 나머지는 train 데이터로 지정하여 학습한다.  
 ![image](https://user-images.githubusercontent.com/71176581/212311240-5ad8a581-5f2a-4f05-ad1c-aeeabf468d1d.png)  
 데이터를 7일 단위로 나눠서 학습한 뒤, 다음날(2022년 11월 1일), 3일 뒤(2022년 11월 4일) 코스피 시가 지수를 예측한다.  
-* 1일 뒤 RNN 예측결과 (filter 14, filter 30)
+* 1일 뒤 RNN 예측결과   
 ![image](https://user-images.githubusercontent.com/71176581/205050073-d1299d96-09b4-4075-a03c-8c57d5144f37.png)  
 
-* 1일 뒤 LSTM 예측결과 
+* 1일 뒤 LSTM 예측결과  
 ![image](https://user-images.githubusercontent.com/71176581/205051479-1e201daf-d489-4045-a0bc-37b4b7d12256.png)  
 
-* 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이
-![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)
+* 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
+![image](https://user-images.githubusercontent.com/71176581/205052274-a819cee0-fd6f-4d0a-b520-6c612194bdb2.png)  
 
 * 3일 뒤 RNN 예측결과  
 ![image](https://user-images.githubusercontent.com/71176581/212315036-96ebd08e-32a4-45b6-89d6-9a36f529403b.png)  
@@ -33,7 +33,7 @@
 * 3일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
 ![image](https://user-images.githubusercontent.com/71176581/212315779-68b57b61-67b2-4ac6-a0f4-83cd088988f8.png)  
 
-* 여러 알고리즘을 이용한 코스피 시가 예측
+* 여러 알고리즘을 이용한 코스피 시가 예측  
 > Grid Search  
 > 알고리즘 별로 성능을 최적화하는 parameter을 선택하는 방법으로 같은 데이터라도 각 알고리즘 별 parameter 값이 다르다. 2019년 11월 01일 ~ 2022년 10월 31일 간 코스피 시가 데이터로 RandomForest, AdaBoost, XGBoost, LightGBM의 성능을 최적화하는 parameter를 알아본다.  
 
