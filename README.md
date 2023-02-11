@@ -38,11 +38,17 @@
 > LightGBM  
 ![image](https://user-images.githubusercontent.com/71176581/218246547-651785ad-c7e5-4cfe-ac97-923530eef4ed.png)  
 
-* RandomForest
+* RandomForest  
 ![image](https://user-images.githubusercontent.com/71176581/205057623-5c03089a-4bb1-40d8-b404-35537f58d241.png)
-* AdaBoost
+* AdaBoost  
 ![image](https://user-images.githubusercontent.com/71176581/205057752-a73dc33e-18f9-4e5e-86c0-99eab02cdd75.png)
-* XGBoost
+* XGBoost  
 ![image](https://user-images.githubusercontent.com/71176581/205057767-f54340d2-f7b0-471b-bfe8-6675c57ade98.png)
-* LightGBM
-![image](https://user-images.githubusercontent.com/71176581/205057808-54e31d16-252d-462f-9969-ac6ade00658c.png)
+* LightGBM  
+![image](https://user-images.githubusercontent.com/71176581/205057808-54e31d16-252d-462f-9969-ac6ade00658c.png)  
+
+* 1일 뒤 실제 코스피 시가 값과 예측한 코스피 시가 값 간 차이  
+![image](https://user-images.githubusercontent.com/71176581/218247079-d6be7bf0-192e-4b27-b432-722049af9f94.png)  
+
+* 2022년 11월 1일 실제 코스피 시가와 예측한 코스피 시가의 RMSE 값  
+![image](https://user-images.githubusercontent.com/71176581/218247113-15500bf5-08fc-4d38-a9e5-6baaa96dcb0e.png)  
