@@ -29,7 +29,7 @@
 > 알고리즘 별로 성능을 최적화하는 parameter을 선택하는 방법으로 같은 데이터라도 각 알고리즘 별 parameter 값이 다르다. 2019년 11월 01일 ~ 2022년 10월 31일 간 코스피 시가 데이터로 RandomForest, AdaBoost, XGBoost, LightGBM의 성능을 최적화하는 parameter를 알아본다.  
 
 * 알고리즘별 최적 하이퍼파라미터 값
-> RandomForest
+> RandomForest  
 ![image](https://user-images.githubusercontent.com/71176581/218246507-e44002b7-769f-42f3-88b1-e17b1f0ad089.png)  
 > AdaBoost  
 ![image](https://user-images.githubusercontent.com/71176581/218246534-f907959e-85d5-416e-8bb9-39b78b9013e7.png)  
