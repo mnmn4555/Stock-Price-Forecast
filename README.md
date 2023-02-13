@@ -52,3 +52,6 @@
 
 * 2022년 11월 1일 실제 코스피 시가와 예측한 코스피 시가의 RMSE 값  
 ![image](https://user-images.githubusercontent.com/71176581/218247113-15500bf5-08fc-4d38-a9e5-6baaa96dcb0e.png)  
+
+* 결론  
+본 연구는 2019년 11월 1일부터 2022년 10월 31일까지 3년의 코스피 시가 데이터를 이용하여 다음날(2022년 11월 1일) 코스피 시가를 예측하는 것이다. 순환 신경망인 RNN, LSTM와 알고리즘인 Random Forest, AdaBoost, XGboost, LightGBM를 이용하여 학습모델을 생성했다. 그 결과 RNN로 예측한 값이 LSTM로 예측한 값보다 실제 다음날 코스피 시가와 유사한 양상을 보이고 RMSE값도 적었다. 마지막으로 알고리즘 중 LightGBM을 사용해 예측한 값이 실제 다음날 코스피 시가와 가장 유사하게 예측했고 RMSE값은 RandomForest가 가장 적었다.
