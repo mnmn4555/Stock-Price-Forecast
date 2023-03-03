@@ -1,6 +1,6 @@
 # Stock-Price-Forecast
 ## 코스피 주식 예측
-> Library : LSTM, RNN, RandomForest, AdaBoost, LightGBM, scikit-learn, FinanceDataReader
+> Library : LSTM, RNN, RandomForest, AdaBoost, LightGBM, scikit-learn, FinanceDataReader  
 > Environment : Google Colab
 ## Overview
 * 주제 선정  
